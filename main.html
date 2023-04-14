@@ -10,6 +10,40 @@
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
+	<form method="post">
+		<label for="name">Name*</label>
+	<input type="text" name="name" id="name" required>
+	
+	<label for="eamil">Email*</label>
+	<input type="email" name="email" id="email" required>
+
+	<label for="gender">Gender*</label>
+	<input type="radio" name="gender" id="gender-m" required>
+	<label for="gender-m">Male</label>
+	<input type="radio" name="gender" id="gender-f" required>
+	<label for="gender-f">Female</label>
+
+	<label for="laptops">Laptop Brands*</label>
+	<select id="laptops" required>
+		<option disabled select>options</option>
+		<option value="Apple">Apple</option>
+		<option value="Asus">Asus</option>
+		<option value="HP">Hap</option>
+	</select>
+	
+	<label for="age">Age*</label>
+	<input type="number" name="age" id="age" required>
+
+	<label for="dob">DOB*</label>
+	<input type="date" name="dob" id="dob" required>
+	
+	<label for="password">Password*</label>
+	<input type="password" name="password" id="password" required>
+
+	<button value="sumbit" id="submit">submit</button>
+		
+	</form>
+	
 
 </body>
 
